@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Be.Cognizant Test">
+	<test name="Be.Cognizant.GSD">
+		<classes>
+			<class name="com.GSD.mainTest.MainGSDTest">
+			<methods>
+					<include name="HomePage" />
+					<include name="GSDPage" />
+			</methods>
+		    </class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

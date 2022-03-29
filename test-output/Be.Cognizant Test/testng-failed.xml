@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Be.Cognizant Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Be.Cognizant.GSD(failed)">
+    <classes>
+      <class name="com.GSD.mainTest.MainGSDTest">
+        <methods>
+          <include name="GSDPage"/>
+        </methods>
+      </class> <!-- com.GSD.mainTest.MainGSDTest -->
+    </classes>
+  </test> <!-- Be.Cognizant.GSD(failed) -->
+</suite> <!-- Failed suite [Be.Cognizant Test] -->
